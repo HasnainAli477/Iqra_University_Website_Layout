@@ -229,3 +229,56 @@ h3 {
     float: right;
     padding: 50px 0 0 10px;
 }
+
+.events_updates{
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.events {
+    width: 50%;
+    height: 100%;
+    border: 2px solid red;
+}
+
+.events .department-line {
+    float: right;
+    width: 19%;
+}
+
+.updates .department-line {
+    width: 19%;
+}
+
+.events h1 {
+    position: relative;
+    left: 63%;
+}
+
+
+
+.events_info {
+    width: 50%;
+    height: 50%;
+    border: 2px solid red;
+    position: relative;
+    left: 50%;
+    top: 22px;
+}
+
+.updates {
+    width: 50%;
+    height: 100%;
+    border: 2px solid red;
+}
+
+.updates .updates_info {
+    width: 50%;
+    height: 50%;
+    border: 2px solid red;
+    float: left;
+    margin-top: 22px;
+    margin-left: 2px;
+}
