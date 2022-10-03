@@ -88,7 +88,7 @@ body {
 .pic {
     width: 70%;
     height: 90%;
-    border: 2px solid red;
+    border: 2px solid black;
     transition: all 0.5s;
 }
 
@@ -108,7 +108,7 @@ body {
 .departments {
     width: 100%;
     height: 800px;
-    background-color: #e2e2e2;
+    background-image:linear-gradient(to right,#e2e2e2,white 90%) ;
     display:  flex;
     flex-direction: column;
     align-items: center;
@@ -120,7 +120,7 @@ body {
 }
 
 .department-line  {
-    border-bottom: 2px solid rgb(132, 112, 13);;
+    border-bottom: 2px solid rgb(132, 112, 13);
     width: 9%;
     
 }
@@ -165,7 +165,7 @@ h3 {
     margin: 3% 1%;
     width: 20%;
     height: 80%;
-    border: 2px solid red;
+    border: 2px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -173,7 +173,7 @@ h3 {
 
 .campuses {
     width: 100%;
-    height: 1050px;
+    height: 1200px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -190,10 +190,10 @@ h3 {
 }
 
 .each-campus {
-    height: 70%;
+    height: 80%;
     margin: 20px 20px;
-    width: 25%;
-    border: 2px solid red;
+    width: 30%;
+    border: 2px solid black;
 }
 
 .program {
@@ -202,7 +202,7 @@ h3 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #e2e2e2;
+    background-image:linear-gradient(to right,#e2e2e2,white 90%);
     padding-top: 4%;
 }
 
@@ -216,7 +216,7 @@ h3 {
 .left-child-program {
     width: 39%;
     height: 60%;
-    border: 2px solid red;
+    border: 2px solid black;
     padding-left: 10px;
     background-color: white;
     float: left;
@@ -225,13 +225,13 @@ h3 {
 .right-child-program {
     width: 60%;
     height: 80%;
-    border: 2px solid red;
+    border: 2px solid black;
     float: right;
     padding: 50px 0 0 10px;
 }
 
 .events_updates{
-    height: 600px;
+    height: 700px;
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -240,16 +240,19 @@ h3 {
 .events {
     width: 50%;
     height: 100%;
-    border: 2px solid red;
 }
 
 .events .department-line {
     float: right;
     width: 19%;
+    position: relative;
+    right: 10px;
 }
 
 .updates .department-line {
     width: 19%;
+    position: relative;
+    left: 5px;
 }
 
 .events h1 {
@@ -260,25 +263,67 @@ h3 {
 
 
 .events_info {
-    width: 50%;
-    height: 50%;
-    border: 2px solid red;
+    width: 70%;
+    height: 35%;
+    border: 2px solid black;
     position: relative;
-    left: 50%;
+    left: 29%;
     top: 22px;
+    margin: 5px;
 }
 
 .updates {
     width: 50%;
     height: 100%;
-    border: 2px solid red;
 }
 
 .updates .updates_info {
-    width: 50%;
-    height: 50%;
-    border: 2px solid red;
+    width: 70%;
+    height: 35%;
+    border: 2px solid black;
     float: left;
-    margin-top: 22px;
-    margin-left: 2px;
+    position: relative;
+    top: 17px;
+    margin: 5px;
+}
+
+.welcome_university {
+    width: 100%;
+    height: 400px;
+    background-image:linear-gradient(to right,#e2e2e2,white 90%);
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+
+.welcome_university>.welcome_left {
+    width: 15%;
+    height: 100%;
+    border: 2px solid rebeccapurple ;
+    float: left;
+}
+
+.welcome_university>.welcome_message {
+    width: 45%;
+    height: 100%;
+    float: left;
+    margin-left: 3%;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+.welcome_message>.department-line {
+    border-bottom: 2px solid #fdc800;
+    width: 20%;
+}
+
+.welcome_university .welcome_right {
+    width: 33%;
+    height: 100%;
+    float: right;
+    transform: rotate(-15deg);
+}
+
+.welcome_right img {
+    width: 100%;
+    height: 100%;
 }
